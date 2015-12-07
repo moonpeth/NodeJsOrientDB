@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>test OrientDB NodeJS</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+
+<div id="form">
+	<p id="title">Exemple de recherche de musique :</p>
+	
+	<input type="text" id="textField"/>
+	<input type="button" id = "getAllFrom" value="findAllFrom" onclick="send(this.id)"/> 
+	<input type="button" id = "byLabel" value="byLabel" onclick="send(this.id)"/> 
+    <input type="button" id = "byKeyword" value="byKeywordOrAbstract" onclick="send(this.id)"/>
+    <input type="button" id = "byType" value="byType" onclick="send(this.id)"/>
+    <input type="button" id = "Add" value="Add" onclick="send(this.id)"/>
+<!-- affiche the resulte of search-->
+	<div id="result">		
+	</div>
+    
+</div>
+
+</body>
+</html>
